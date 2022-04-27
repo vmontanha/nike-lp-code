@@ -8,6 +8,10 @@
           margin: 0;
 }
 
+.fp-watermark {
+          display: none !important;
+}
+
 body {
           font-family: 'Open Sans', sans-serif;
           font-size: 16px;
@@ -133,6 +137,13 @@ header .action button i {
           position: relative;
 }
 
+.hero-se-feminino {
+          background-image: url('https://www.papeiseparede.com.br/6089-large_default/papel-de-parede-leopardo.jpg.webp');
+          background-repeat: repeat;
+          background-size: contain;
+          background-position: 0%;
+}
+
 .hero .container {
           min-height: 100%;
           position: relative;
@@ -147,18 +158,45 @@ header .action button i {
           position: relative;
 }
 
-.hero .mid h2 {
+.hero .mid .primary {
           font-size: 20em;
           font-weight: 600;
           text-transform: uppercase;
-          -webkit-text-stroke: 3px #ffffff;
-          -webkit-text-fill-color: transparent;
-
+          -webkit-text-stroke: 6px #ffffff;
+          -webkit-text-fill-color: #fff;
+          text-align: center;
           position: absolute;
-          top: 50%;
+          top: 45%;
           left: 50%;
           transform: translate(-50%, -50%);
           z-index: 1;
+}
+
+.hero .mid .secondary {
+          font-size: 20em;
+          font-weight: 600;
+          text-transform: uppercase;
+          -webkit-text-stroke: 6px #fff;
+          -webkit-text-fill-color: #fff;
+          text-align: center;
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+}
+
+
+.bw-color {
+          -webkit-text-stroke: 1px #fff;
+          -webkit-text-fill-color: #000;
+          text-align: center;
+}
+
+.se-feminino {
+          -webkit-text-stroke: 1px #000000;
+          -webkit-text-fill-color: #000;
+          text-align: center;
 }
 
 .hero .mid img {

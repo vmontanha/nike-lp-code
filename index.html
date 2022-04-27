@@ -18,11 +18,18 @@
                     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
                     crossorigin="anonymous" />
 
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.css"
+                    integrity="sha512-g+pNagYYEdQuLLr1akeb7LxcUyjKotEMXpeFvkvE2Xd70Yw7cLSRGbeP95gBLAU/zNzgjAK0+/lvz4EkOR7EMw=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.js"
+                    integrity="sha512-aEpM49rTT9jrWKONB0WLWPzPmsm6nQpWklNeGhaL1B8B4TzFtVTN1evOpATZ5OMAzhHycl8a5lZ600NDnYe1AA=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
-
-          <!-- Code the whole project so you will be able to learn the things that I have shown to the video: https://youtu.be/N3kiK7WreHo -->
 
           <!-- header section markup -->
 
@@ -35,34 +42,60 @@
           </header>
 
           <!-- hero section markup -->
+          <div id="fullpage">
+                    <div class="section">
+                              <section class="hero">
+                                        <div class="container">
+                                                  <div class="mid">
+                                                            <h2 class="primary">Black <br> <span
+                                                                                class="bw-color">WHITE</span></h2>
+                                                            <img src="img/1.png">
+                                                  </div>
 
-          <section class="hero">
-                    <div class="container">
-                              <div class="mid">
-                                        <h2>DUNK<br>LOW</h2>
-                                        <img src="img/1.png">
-                              </div>
+                                        </div>
 
-                              <div class="bottom">
-                                        <a href="#">Quero agora!</a>
-                              </div>
+                                        <!-- <div class="right-side">
+                                                  <a href="#" class="active">01</a>
+                                                  <a href="#">02</a>
+                                                  <a href="#">03</a>
+                                        </div> -->
+                              </section>
                     </div>
+                    <div class="section">
+                              <section class="hero hero-se-feminino">
+                                        <div class="container">
+                                                  <div class="mid">
+                                                            <h2 class="secondary">SE<br><span
+                                                                                class="se-feminino">FEMININO</span></h2>
+                                                            <img src="img/4.png">
+                                                  </div>
 
-                    <!-- <div class="left-side">
+                                        </div>
+
+                                        <!-- <div class="left-side">
                               <a href="#" class="active">Men</a>
                               <a href="#">Women</a>
                               <a href="#">Kids</a>
                     </div> -->
 
-                    <div class="right-side">
-                              <a href="#" class="active">01</a>
-                              <a href="#">02</a>
-                              <a href="#">03</a>
+                              </section>
                     </div>
-          </section>
+                    <div class="section">credits</div>
+          </div>
+
 
           <!-- add javascript -->
-          <script type="text/javascript" src="js/script.js"></script>
+          <script> $(document).ready(function () {
+                              $('#fullpage').fullpage({
+                                        //options here
+                                        autoScrolling: true,
+                                        scrollHorizontally: true,
+                              });
+
+                              //methods
+                              $.fn.fullpage.setAllowScrolling(true);
+                    });
+          </script>
 
 </body>
 
