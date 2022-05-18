@@ -18,15 +18,7 @@
                     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
                     crossorigin="anonymous" />
 
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.css"
-                    integrity="sha512-g+pNagYYEdQuLLr1akeb7LxcUyjKotEMXpeFvkvE2Xd70Yw7cLSRGbeP95gBLAU/zNzgjAK0+/lvz4EkOR7EMw=="
-                    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.js"
-                    integrity="sha512-aEpM49rTT9jrWKONB0WLWPzPmsm6nQpWklNeGhaL1B8B4TzFtVTN1evOpATZ5OMAzhHycl8a5lZ600NDnYe1AA=="
-                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.0.js"></script>
 </head>
 
 <body>
@@ -42,60 +34,25 @@
           </header>
 
           <!-- hero section markup -->
-          <div id="fullpage">
-                    <div class="section">
-                              <section class="hero">
-                                        <div class="container">
-                                                  <div class="mid">
-                                                            <h2 class="primary">Black <br> <span
-                                                                                class="bw-color">WHITE</span></h2>
-                                                            <img src="img/1.png">
-                                                  </div>
-
+          <div class="section">
+                    <section class="hero">
+                              <div class="container">
+                                        <div class="mid">
+                                                  <h2 class="primary">Black <br> <span class="bw-color">WHITE</span>
+                                                  </h2>
                                         </div>
 
-                                        <!-- <div class="right-side">
-                                                  <a href="#" class="active">01</a>
-                                                  <a href="#">02</a>
-                                                  <a href="#">03</a>
-                                        </div> -->
-                              </section>
-                    </div>
-                    <div class="section">
-                              <section class="hero hero-se-feminino">
-                                        <div class="container">
-                                                  <div class="mid">
-                                                            <h2 class="secondary">SE<br><span
-                                                                                class="se-feminino">FEMININO</span></h2>
-                                                            <img src="img/4.png">
-                                                  </div>
+                              </div>
 
-                                        </div>
-
-                                        <!-- <div class="left-side">
-                              <a href="#" class="active">Men</a>
-                              <a href="#">Women</a>
-                              <a href="#">Kids</a>
-                    </div> -->
-
-                              </section>
-                    </div>
-                    <div class="section">credits</div>
+                    </section>
           </div>
 
-
-          <!-- add javascript -->
-          <script> $(document).ready(function () {
-                              $('#fullpage').fullpage({
-                                        //options here
-                                        autoScrolling: true,
-                                        scrollHorizontally: true,
-                              });
-
-                              //methods
-                              $.fn.fullpage.setAllowScrolling(true);
-                    });
-          </script>
+          <div id="img" class="sketchfab-embed-wrapper"> <iframe title="" frameborder="0" allowfullscreen
+                              mozallowfullscreen="true" webkitallowfullscreen="true"
+                              allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                              execution-while-out-of-viewport execution-while-not-rendered web-share
+                              src="https://sketchfab.com/models/1d964e3914b94d8b98dd450c7f7c24cd/embed?transparent=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0">
+                    </iframe> </div>
 
 </body>
 
