@@ -87,17 +87,13 @@
                     line-height: 0.8em;
           }
 
-          .hero .mid .se-feminino {
-                    font-size: 0.8em;
-          }
-
           .hero .mid img {
                     width: 300px;
                     left: 30%;
           }
 
           .hero .container {
-                    min-height: 100%;
+                    height: calc(100vh - 60px);
                     position: relative;
           }
 }
